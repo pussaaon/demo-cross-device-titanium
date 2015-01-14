@@ -1,0 +1,6 @@
+
+if (!Alloy.isTablet){
+    
+} else {
+    
+}
