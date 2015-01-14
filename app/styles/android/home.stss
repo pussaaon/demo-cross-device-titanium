@@ -1,0 +1,24 @@
+#viewMain {
+    width: Ti.UI.FILL;
+    height: Ti.UI.FILL;
+    layout: vertical;
+}
+
+
+@media android and (handheld) {
+   #viewHeader {
+        backgroundColor: '#e93b2a';
+        width: '100%';
+        height: 46;
+        top: 0;
+   }
+}
+
+@media android and (tablet) {
+    #viewHeader {
+        backgroundColor: '#2f2f2f';
+        width: '100%';
+        height: 70;
+        top: 0;
+    }
+}

@@ -1,0 +1,20 @@
+<Alloy>
+    <Window id="win" class="container" formFactor="handheld">
+        <View id="viewMain">
+            <View id="viewHeader"><Label>Startsiden</Label></View>
+            <ListView>
+                <ListSection>
+                    <ListItem title="News Article 1"></ListItem>
+                    <ListItem title="News Article 2"></ListItem>
+                    <ListItem title="News Article 3"></ListItem>
+                </ListSection>
+            </ListView>
+        </View>
+    </Window>
+    <Window id="win" class="container" formFactor="tablet">
+        <View id="viewMain">
+            <View id="viewHeader"><Label>Startsiden</Label></View>
+            <WebView id="webBrowserView" hideLoadIndicator="true" scrollsToTop="true" url="http://www.abcnyheter.no" />
+        </View>
+    </Window>
+</Alloy>

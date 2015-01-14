@@ -1,0 +1,20 @@
+"Label": {
+	color: "#0f0",
+	text: "This is not iphone"
+},
+"Label[platform=ios formFactor=handheld]": {
+	color: "#f00",
+	text: "This is iphone"
+},
+"Label[platform=ios formFactor=tablet]": {
+	color: "#FFFF00",
+	text: "This is ipad"
+},
+"Label[platform=android formFactor=handheld]": {
+	color: "#00f",
+	text: "This is android phone"
+},
+"Label[platform=android formFactor=tablet]": {
+	color: "#FE2EC8",
+	text: "This is android tablet"
+}
